@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import './styles.css';
 
@@ -13,10 +14,10 @@ export default class headerSite extends Component {
                 <div>
                     <div>
                     <ul>
-                        <li><a href="#">Quanto custa para fazer um aplicativo?</a></li>
-                        <li><a href="#">Quanto custa um website?</a></li>
-                        <li><a href="#">App vs Site?</a></li>
-                        <li><a href="#">Quanto custa um logotipo?</a></li>
+                        <li><Link to="/questions">Quanto custa para fazer um aplicativo?</Link></li>
+                        <li><Link to="/questions">Quanto custa um website?</Link></li>
+                        <li><Link to="/questions">App vs Site?</Link></li>
+                        <li><Link to="/questions">Quanto custa um logotipo?</Link></li>
                     </ul>
                     </div>
                 </div>
