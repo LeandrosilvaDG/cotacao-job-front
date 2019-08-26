@@ -34,25 +34,19 @@ class Questions extends Component {
               <div className="options-inner">
                 <MdPhonelink color="#fff" size="50" />
               </div>
-              <span>teste</span>
+              <span>Sim</span>
             </button>
             <button to="/questions" params={{ teste: 'leandro' }} onClick={this.handleOptionCLick}>
               <div className="options-inner">
                 <MdPhonelink color="#fff" size="50" />
               </div>
-              <span>teste</span>
+              <span>Não</span>
             </button>
             <button to="/questions" params={{ teste: 'leandro' }} onClick={this.handleOptionCLick}>
               <div className="options-inner">
                 <MdPhonelink color="#fff" size="50" />
               </div>
-              <span>teste</span>
-            </button>
-            <button to="/questions" params={{ teste: 'leandro' }} onClick={this.handleOptionCLick}>
-              <div className="options-inner">
-                <MdPhonelink color="#fff" size="50" />
-              </div>
-              <span>teste</span>
+              <span>Não sei dizer</span>
             </button>
           </div>
         </div>
